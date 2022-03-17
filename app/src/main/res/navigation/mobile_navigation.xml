@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.year3spring.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_fina"
+        android:name="com.example.year3spring.ui.fina3203.FinaFragment"
+        android:label="@string/menu_fina"
+        tools:layout="@layout/fina_fragment" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.year3spring.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_compOrg"
+        android:name="com.example.year3spring.ui.comp2611.CompOrgFragment"
+        android:label="@string/menu_comp_org"
+        tools:layout="@layout/comp_org_fragment" />
 </navigation>

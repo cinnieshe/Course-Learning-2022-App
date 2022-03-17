@@ -1,17 +1,17 @@
-package com.example.year3spring.ui.slideshow
+package com.example.year3spring.ui.fina3203
 
+import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
+import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import com.example.year3spring.databinding.FragmentSlideshowBinding
+import com.example.year3spring.databinding.FinaFragmentBinding
 
-class SlideshowFragment : Fragment() {
+class FinaFragment : Fragment() {
 
-    private var _binding: FragmentSlideshowBinding? = null
+    private var _binding: FinaFragmentBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,14 +22,14 @@ class SlideshowFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val slideshowViewModel =
-            ViewModelProvider(this).get(SlideshowViewModel::class.java)
+        val finaViewModel =
+            ViewModelProvider(this).get(FinaViewModel::class.java)
 
-        _binding = FragmentSlideshowBinding.inflate(inflater, container, false)
+        _binding = FinaFragmentBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textSlideshow
-        slideshowViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.textFina
+        finaViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root
