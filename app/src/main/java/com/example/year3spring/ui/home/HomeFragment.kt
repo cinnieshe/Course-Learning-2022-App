@@ -4,10 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.GridLayoutManager
 import com.example.year3spring.databinding.FragmentHomeBinding
+import com.example.year3spring.ui.home.model.CourseDataSource
+import com.example.year3spring.ui.home.model.HomeViewModel
 
 class HomeFragment : Fragment() {
 
@@ -22,17 +24,17 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
-
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
-        val root: View = binding.root
 
-        val textView: TextView = binding.textHome
-        homeViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
-        return root
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        val courseDataSet = CourseDataSource().loadData()
+        val recyclerView = binding.recyclerViewCourse
+        recyclerView.adapter = HomeCourseAdapter(courseDataSet)
+        recyclerView.layoutManager = GridLayoutManager(requireContext(),2)
+        recyclerView.setHasFixedSize(true)
     }
 
     override fun onDestroyView() {

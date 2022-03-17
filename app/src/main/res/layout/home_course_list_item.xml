@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_course_list_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_view_margin"
+    app:cardCornerRadius="@dimen/card_radius"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="#DFDFDF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/course_bottom_padding"
+        app:layout_constraintTop_toTopOf="@id/home_course_list_item"
+        app:layout_constraintLeft_toLeftOf="@id/home_course_list_item">
+        <ImageView
+            android:id="@+id/course_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_fina"
+            android:layout_margin="@dimen/icon_margin"
+            android:importantForAccessibility="no"
+            android:contentDescription="@string/course_icon_description"/>
+
+        <TextView
+            android:id="@+id/course_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/aref_ruqaa"
+            android:textColor="@color/purple_700"
+            tools:text="@string/fina" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,4 +1,4 @@
-package com.example.year3spring.ui.home
+package com.example.year3spring.ui.home.model
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

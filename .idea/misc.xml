@@ -3,11 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/drawable/ic_baseline_code_24.xml" value="0.162" />
         <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.162" />
+        <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/drawable/ic_comp_cloud.xml" value="0.162" />
         <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/drawable/ic_comp_org.xml" value="0.162" />
         <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/drawable/ic_fina.xml" value="0.162" />
+        <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/drawable/ic_fina1.xml" value="0.162" />
+        <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/drawable/ic_isom.xml" value="0.162" />
         <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1675" />
+        <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/drawable/ic_rmbi.xml" value="0.162" />
         <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/font/aref_ruqaa.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/font/aref_ruqaa_bold.xml" value="0.34717948717948716" />
         <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/layout/activity_main.xml" value="0.3223958333333333" />
         <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/layout/app_bar_main.xml" value="0.3223958333333333" />
         <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/layout/comp_org_fragment.xml" value="0.3223958333333333" />
@@ -16,6 +23,7 @@
         <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/layout/fragment_gallery.xml" value="0.3223958333333333" />
         <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/layout/fragment_home.xml" value="0.3223958333333333" />
         <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/layout/fragment_slideshow.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/layout/home_course_list.xml" value="0.3223958333333333" />
         <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/layout/nav_header_main.xml" value="0.3223958333333333" />
         <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/menu/activity_main_drawer.xml" value="0.3223958333333333" />
         <entry key="..\:/Users/cinni/AndroidStudioProjects/Year3Spring/app/src/main/res/menu/main.xml" value="0.3223958333333333" />

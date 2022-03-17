@@ -10,4 +10,14 @@
     <string name="menu_home">Home</string>
     <string name="menu_fina">FINA3203</string>
     <string name="menu_comp_org">COMP2611</string>
+
+    <string name="home_title"><u>Year 3 Spring Course Learning 2022</u></string>
+    <string name="home"><u>Home</u></string>
+    <string name="fina"><u>FINA3203</u></string>
+    <string name="comp_org"><u>COMP2611</u></string>
+    <string name="comp_alg"><u>COMP3711</u></string>
+    <string name="rmbi"><u>RMBI4310</u></string>
+    <string name="isom"><u>ISOM3710</u></string>
+    <string name="comp_cloud"><u>COMP4651</u></string>
+    <string name="course_icon_description">Course Icon</string>
 </resources>
