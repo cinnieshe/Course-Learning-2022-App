@@ -9,9 +9,10 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import com.example.year3spring.databinding.FinaContentFragmentBinding
-import com.example.year3spring.ui.fina3203.model.LECTURE_COUNT
-import com.example.year3spring.ui.fina3203.model.finaContentData
-import com.example.year3spring.ui.fina3203.model.finaTitleData
+import com.example.year3spring.ui.fina3203.model.FinaLectureContentDataSource
+import com.example.year3spring.ui.fina3203.model.FinaLectureTitleDataSource
+
+const val LECTURE_COUNT = 10
 
 class FinaContentFragment : Fragment() {
 
@@ -82,8 +83,8 @@ class FinaContentFragment : Fragment() {
     }
 
     private fun setTitleAndContent() {
-        finaTitle.text = finaTitleData[lectureNum]
-        finaContent.text = finaContentData[lectureNum]
+        finaTitle.setText(FinaLectureTitleDataSource().loadData()[lectureNum].lectureTitleId)
+        finaContent.setText(FinaLectureContentDataSource().loadData()[lectureNum].lectureContentId)
     }
 
     override fun onDestroyView() {

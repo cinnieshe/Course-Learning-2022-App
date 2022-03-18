@@ -27,7 +27,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/fragment_margin"
             android:justificationMode="inter_word"
-            tools:text="@tools:sample/lorem/random" />
+            tools:text="@string/l1_content"
+            android:lineSpacingExtra="@dimen/text_line_space" />
         <!--JustificationMode only available at API 26 or above-->
 
         <androidx.constraintlayout.widget.ConstraintLayout

@@ -36,4 +36,18 @@
     <string name="l8">| 08. Commodity Swaps</string>
     <string name="l9">| 09. Other Popular Swaps</string>
     <string name="lX">| XX. Review: Forward &amp; Swaps</string>
+
+    <!-- FINA3203 Lecture Content -->
+    <string name="l1_content">
+        <b><u>Why do we need to study financial derivatives?</u></b>\n\n- <b>Buy Side:</b> have to understand financial derivatives to allow for certain investment strategies\nE.g., Swap contracts allow us to bet on certain direction of market movement with very low cost\n\n- <b>Sell Side:</b> we are responsible for providing solutions to meet our clients\' financial needs, which,financial derivatives are widely used in this space\nE.g., <b>Convertible bonds</b> are sometimes provided to clients who want to issue debts to raise funds—> increase the amount of funds raised (the pricing of convertible bonds involves pricing of options\nE.g., Institutional investors will ask for financial derivatives to meet their special investment strategies\n\n<b><u>What is a Financial Derivative?</u></b>\n\n<b>Definition: A derivative is a financial security or contract whose payoff depends on, or is derived from, the value of the \"underlying\"</b>\n\n<b><u>Appendix:</u></b>\n\n<b>Convertible Bonds</b> have 2 parts: (i) Conventional bonds, (ii) Allow holders to convert the bond into stock\n\n
+    </string>
+    <string name="l2_content">This is a <u>dummy</u> text.</string>
+    <string name="l3_content">dummy</string>
+    <string name="l4_content">dummy</string>
+    <string name="l5_content">dummy</string>
+    <string name="l6_content">dummy</string>
+    <string name="l7_content">dummy</string>
+    <string name="l8_content">dummy</string>
+    <string name="l9_content">dummy</string>
+    <string name="lX_content">dummy</string>
 </resources>

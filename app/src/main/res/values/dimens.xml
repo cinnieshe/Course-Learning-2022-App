@@ -15,4 +15,5 @@
     <dimen name="lecture_title_font_size">34sp</dimen>
     <dimen name="lecture_title_margin_bottom">28dp</dimen>
     <dimen name="btn_margin">8dp</dimen>
+    <dimen name="text_line_space">10sp</dimen>
 </resources>
