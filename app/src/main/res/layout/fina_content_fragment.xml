@@ -18,6 +18,7 @@
             android:layout_margin="@dimen/fragment_margin"
             android:layout_marginBottom="@dimen/lecture_title_margin_bottom"
             android:fontFamily="@font/aref_ruqaa_bold"
+            android:textIsSelectable="true"
             android:textSize="@dimen/lecture_title_font_size"
             tools:text="@string/l1" />
 
@@ -28,7 +29,8 @@
             android:layout_margin="@dimen/fragment_margin"
             android:justificationMode="inter_word"
             tools:text="@string/l1_content"
-            android:lineSpacingExtra="@dimen/text_line_space" />
+            android:lineSpacingExtra="@dimen/text_line_space"
+            android:textIsSelectable="true"/>
         <!--JustificationMode only available at API 26 or above-->
 
         <androidx.constraintlayout.widget.ConstraintLayout
