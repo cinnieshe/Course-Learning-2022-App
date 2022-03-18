@@ -22,17 +22,17 @@ class FinaFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val finaViewModel =
-            ViewModelProvider(this).get(FinaViewModel::class.java)
+//        val finaViewModel =
+//            ViewModelProvider(this).get(FinaViewModel::class.java)
 
         _binding = FinaFragmentBinding.inflate(inflater, container, false)
-        val root: View = binding.root
-
-        val textView: TextView = binding.textFina
-        finaViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
-        return root
+//        val root: View = binding.root
+//
+//        val textView: TextView = binding.textFina
+//        finaViewModel.text.observe(viewLifecycleOwner) {
+//            textView.text = it
+//        }
+        return binding.root
     }
 
     override fun onDestroyView() {

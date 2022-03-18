@@ -22,17 +22,17 @@ class CompOrgFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val compOrgViewModel =
-            ViewModelProvider(this).get(CompOrgViewModel::class.java)
+//        val compOrgViewModel =
+//            ViewModelProvider(this).get(CompOrgViewModel::class.java)
 
         _binding = CompOrgFragmentBinding.inflate(inflater, container, false)
-        val root: View = binding.root
+//        val root: View = binding.root
 
-        val textView: TextView = binding.textCompOrg
-        compOrgViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
-        return root
+//        val textView: TextView = binding.textCompOrg
+//        compOrgViewModel.text.observe(viewLifecycleOwner) {
+//            textView.text = it
+//        }
+        return binding.root
     }
 
     override fun onDestroyView() {
