@@ -20,4 +20,18 @@
     <string name="isom"><u>ISOM3710</u></string>
     <string name="comp_cloud"><u>COMP4651</u></string>
     <string name="course_icon_description">Course Icon</string>
+
+    <string name="card_background_description">Background</string>
+
+    <!-- FINA3203 Lecture Titles -->
+    <string name="l1">| 01. Introduction to Financial Derivatives</string>
+    <string name="l2">| 02. Forward Contracts on Financial Assets and Indices</string>
+    <string name="l3">| 03. Forward Contracts on Interest Rate</string>
+    <string name="l4">| 04. Forward Contracts on Foreign Currencies</string>
+    <string name="l5">| 05. Forward Contracts on Commodities</string>
+    <string name="l6">| 06. Future Contracts: Some Basics</string>
+    <string name="l7">| 07. Interest Rate Swaps</string>
+    <string name="l8">| 08. Commodity Swaps</string>
+    <string name="l9">| 09. Other Popular Swaps</string>
+    <string name="lX">| XX. Review: Forward &amp; Swaps</string>
 </resources>

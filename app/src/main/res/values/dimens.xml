@@ -11,4 +11,5 @@
     <dimen name="card_view_margin">5dp</dimen>
     <dimen name="card_radius">8dp</dimen>
     <dimen name="recycler_view_margin">11dp</dimen>
+    <dimen name="text_padding">8dp</dimen>
 </resources>
