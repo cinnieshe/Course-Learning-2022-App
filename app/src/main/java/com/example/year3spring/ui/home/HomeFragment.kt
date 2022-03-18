@@ -32,7 +32,7 @@ class HomeFragment : Fragment() {
         val courseDataSet = CourseDataSource().loadData()
         val recyclerView = binding.recyclerViewCourse
         recyclerView.adapter = HomeCourseAdapter(courseDataSet)
-        recyclerView.layoutManager = GridLayoutManager(requireContext(),2)
+        recyclerView.layoutManager = GridLayoutManager(requireContext(), 2)
         recyclerView.setHasFixedSize(true)
     }
 

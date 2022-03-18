@@ -22,6 +22,8 @@
     <string name="course_icon_description">Course Icon</string>
 
     <string name="card_background_description">Background</string>
+    <string name="btn_prev">Previous</string>
+    <string name="btn_next">Next</string>
 
     <!-- FINA3203 Lecture Titles -->
     <string name="l1">| 01. Introduction to Financial Derivatives</string>
