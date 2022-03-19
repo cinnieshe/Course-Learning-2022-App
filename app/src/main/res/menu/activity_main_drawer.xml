@@ -16,5 +16,21 @@
             android:id="@+id/nav_compOrg"
             android:icon="@drawable/ic_comp_org"
             android:title="@string/menu_comp_org" />
+        <item
+            android:id="@+id/nav_compAlg"
+            android:icon="@drawable/ic_comp_alg"
+            android:title="@string/comp_alg"/>
+        <item
+            android:id="@+id/nav_rmbi"
+            android:icon="@drawable/ic_rmbi"
+            android:title="@string/rmbi"/>
+        <item
+            android:id="@+id/nav_comp_cloud"
+            android:icon="@drawable/ic_comp_cloud"
+            android:title="@string/comp_cloud"/>
+        <item
+            android:id="@+id/nav_isom"
+            android:icon="@drawable/ic_isom"
+            android:title="@string/isom"/>
     </group>
 </menu>
